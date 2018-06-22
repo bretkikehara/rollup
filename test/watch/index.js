@@ -210,7 +210,6 @@ describe('rollup.watch', () => {
 							format: 'cjs'
 						},
 						watch: { chokidar },
-						experimentalCodeSplitting: true
 					});
 
 					return sequence(watcher, [
@@ -250,7 +249,6 @@ describe('rollup.watch', () => {
 							format: 'cjs'
 						},
 						watch: { chokidar },
-						experimentalCodeSplitting: true
 					});
 
 					return sequence(watcher, [
